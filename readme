@@ -1,0 +1,6 @@
+En este programa hemos creado un ejemplo de herencia en php, para ello hemos creado 3 clases, la clase Animal, la clase Gato y la clase Perro.
+La clase Animal cuenta con los métodos comer y dormir
+La clase Gato y Perro tienen el método comer (es una sobreescritura del método comer de animal) y usardormir (sobreescribe el método dormir de animal)
+
+
+
