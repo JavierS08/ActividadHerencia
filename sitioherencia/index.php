@@ -9,12 +9,14 @@
 <body>
     <?php
     echo "<h2>Ejercicio Herencia</h2>";
+    //Importamos los paquetes donde están todas las clases
     require_once("./padre/Animal.php");
     require_once("./hija/perro.php");
     require_once("./hija/gato.php");
+    //Instanciamos la clase perro y gato
     $perro= new Perro;
     $gato= new Gato;
-
+    //Llamamos a los métodos comer y dormir de ambas clases
     echo "<h2>Métodos comer</h2>";
     $perro->comer();
     $gato->comer();
